@@ -17,22 +17,31 @@ body {
 .qrCode img {
   width: 100%;
   border-radius: 8px;
-  margin-bottom: 20px;
+}
+
+.text {
+  padding: 0 16px 0 16px;
 }
 
 h1 {
   font-weight: 700;
   color: hsl(218, 44%, 22%);
   padding-bottom: 20px;
+  font-size: 28px;
 }
 
 h2 {
   font-weight: 400;
   font-size: 15px;
-  color: hsl(212, 45%, 89%);
+  color: rgb(140, 142, 148);
   padding-bottom: 20px;
 }
 
 .attribution {
-  padding: 20px 10px;
+  padding: 10px 10px;
+  font-size: 80%;
+}
+
+.links {
+  text-decoration: none;
 }
